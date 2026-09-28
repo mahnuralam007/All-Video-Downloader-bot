@@ -1,0 +1,16 @@
+.env
+.env.*
+*.env
+cookies.txt
+*.cookie
+*.session
+*.session-journal
+.git
+__pycache__
+downloads
+bot_stats.json
+user_preferences.json
+*.pyc
+*.pyo
+*.pyd
+.env.example
