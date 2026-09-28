@@ -258,7 +258,7 @@ def format_public_dashboard() -> str:
     total_downloads = summary["total_downloads"]
 
     return (
-        "📊 <b>Universal Media Downloader Statistics</b>\n"
+        "📊 <b>All Video Downloader Statistics</b>\n"
         "━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
         f"👥 <b>Community:</b> <code>{total_users:,}+</code> happy users\n"
         f"📥 <b>Media Delivered:</b> <code>{total_downloads:,}+</code> files\n"

@@ -1,4 +1,4 @@
-# Contributing to Universal Media Downloader Bot
+# Contributing to All Video Downloader Bot
 
 Thank you for your interest in contributing to this open-source project! We welcome contributions from developers of all skill levels.
 

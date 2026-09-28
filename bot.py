@@ -206,7 +206,7 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
     welcome_text = (
         f"👋 <b>Hello, {html.escape(user.first_name)}!</b>\n\n"
-        f"Welcome to <b>Universal Media Downloader</b> 📥\n"
+        f"Welcome to <b>All Video Downloader</b> 📥\n"
         f"Download videos, photos, carousels & music from <b>Instagram, YouTube, TikTok, X (Twitter), Pinterest, Reddit</b> & 1,000+ sites.\n\n"
         f"⚙️ <b>Active Mode:</b> <code>{mode_text}</code>\n\n"
         f"👥 <b>Works in Group Chats!</b>\n"
@@ -397,7 +397,7 @@ async def about_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         return
 
     about_text = (
-        "🤖 <b>Universal Media Downloader</b>\n"
+        "🤖 <b>All Video Downloader</b>\n"
         "━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
         "• <b>Version:</b> 2.1.0 (Cloud Edition)\n"
         "• <b>Architecture:</b> Python 3.11 • yt-dlp • FFmpeg • Gallery-DL\n"
@@ -491,7 +491,7 @@ async def broadcast_command(update: Update, context: ContextTypes.DEFAULT_TYPE) 
         f"📢 <b>Announcement from Admin</b>\n"
         f"━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
         f"{html.escape(broadcast_text)}\n\n"
-        f"💬 <i>Universal Media Downloader Updates</i>"
+        f"💬 <i>All Video Downloader Updates</i>"
     )
 
     for uid in user_ids:
@@ -1407,7 +1407,7 @@ class HealthHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-type", "text/plain; charset=utf-8")
         self.end_headers()
-        self.wfile.write(b"OK - Universal Media Downloader Bot is running!\n")
+        self.wfile.write(b"OK - All Video Downloader Bot is running!\n")
 
     def log_message(self, format, *args):
         # Suppress periodic health check logs to keep terminal output clean
@@ -1435,7 +1435,7 @@ def main():
     # Start health check server for cloud hosting platforms (Render, Koyeb, etc.)
     start_health_server()
 
-    print("🚀 Initializing Universal Media Downloader Bot...")
+    print("🚀 Initializing All Video Downloader Bot...")
     app = (
         Application.builder()
         .token(config.TELEGRAM_BOT_TOKEN)

@@ -279,7 +279,7 @@ class TestDownloader(unittest.TestCase):
         self.assertIn("YouTube", admin_dash)
 
         pub_dash = analytics.format_public_dashboard()
-        self.assertIn("Universal Media Downloader", pub_dash)
+        self.assertIn("All Video Downloader", pub_dash)
 
 
 if __name__ == "__main__":
