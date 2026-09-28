@@ -1,4 +1,4 @@
-# Contributing to All Video Downloader Bot
+# Contributing to All Media/Video Downloader Bot
 
 Thank you for your interest in contributing to this open-source project! We welcome contributions from developers of all skill levels.
 

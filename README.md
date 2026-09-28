@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📥 All Video Downloader Bot
+# 📥 All Media/Video Downloader Bot
 
 ### An open-source, ultra-fast Telegram bot for downloading media and extracting MP3 audio from all major social platforms.
 
